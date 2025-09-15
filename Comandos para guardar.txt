@@ -1,0 +1,7 @@
+# Guardar cambios
+git add .
+git commit -m "tu mensaje"
+git push
+
+# Descargar cambios del equipo
+git pull --rebase
