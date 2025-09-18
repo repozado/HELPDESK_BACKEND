@@ -1,6 +1,6 @@
 const model = require("../models/persona.model");
 
-exports.getAllPersona = async () => {
+exports.getAllPersonas = async () => {
   return await model.findAll();
 };
 
